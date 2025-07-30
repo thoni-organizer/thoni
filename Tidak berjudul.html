@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio Terorisme & Separatisme</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <style>
+    :root {
+      --bg-dark: #0f0f0f;
+      --bg-light: #f4f4f4;
+      --text-dark: #ffffff;
+      --text-light: #111111;
+      --primary-color: #00ffee;
+      --accent-color: #ff0055;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+      background: var(--bg-dark);
+      color: var(--text-dark);
+      transition: background 0.4s, color 0.4s;
+    }
+
+    header {
+      background: linear-gradient(90deg, var(--accent-color), var(--primary-color));
+      padding: 30px 20px;
+      text-align: center;
+      font-family: 'Orbitron', sans-serif;
+      box-shadow: 0 4px 20px rgba(255, 0, 85, 0.3);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8em;
+      color: #fff;
+      text-shadow: 0 0 10px #fff;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    header h3 {
+      margin-top: 10px;
+      font-size: 1.2em;
+      color: #f0f0f0;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 30px;
+      background-color: rgba(31, 31, 31, 0.95);
+      border-radius: 15px;
+      box-shadow: 0 0 25px rgba(0, 255, 234, 0.1);
+      transition: background 0.4s;
+    }
+
+    h2 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.5em;
+      color: var(--primary-color);
+      border-left: 4px solid var(--accent-color);
+      padding-left: 10px;
+    }
+
+    h4 {
+      margin-top: 20px;
+      color: var(--primary-color);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li::marker {
+      color: var(--accent-color);
+    }
+
+    strong {
+      color: #fff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #aaa;
+      background-color: #121212;
+      font-size: 14px;
+      border-top: 1px solid #333;
+      margin-top: 40px;
+    }
+
+    .button-group {
+      text-align: center;
+      margin: 30px auto;
+    }
+
+    button {
+      margin: 10px;
+      padding: 12px 24px;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 14px;
+      color: #fff;
+      background-color: var(--accent-color);
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    button:hover {
+      background-color: #e60045;
+      transform: scale(1.05);
+    }
+
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 5px #fff, 0 0 10px var(--primary-color), 0 0 15px var(--accent-color);
+      }
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px var(--primary-color), 0 0 40px var(--accent-color);
+      }
+    }
+
+    .light-mode {
+      background: var(--bg-light);
+      color: var(--text-light);
+    }
+
+    .light-mode section {
+      background: #ffffff;
+      color: #111;
+    }
+
+    .light-mode header {
+      background: linear-gradient(90deg, #ff3399, #00ccff);
+      color: #111;
+    }
+
+    .light-mode h2, .light-mode h4 {
+      color: #0077cc;
+    }
+
+    .light-mode footer {
+      background: #eee;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>PORTOFOLIO</h1>
+    <h3>Ancaman Terorisme dan Separatisme di Indonesia serta Solusi Penanganannya</h3>
+  </header>
+
+  <div class="button-group">
+    <button onclick="toggleMode()">🌓 Mode Terang/Gelap</button>
+    <button onclick="window.print()">📄 Download PDF</button>
+  </div>
+
+  <section data-aos="fade-up">
+    <h2>1. Identitas Diri</h2>
+    <p><strong>KELOMPOK 04 :</strong> •Thoni  •Bahrudin</p>
+    <p><strong>Kelas       :</strong> XII/12</p>
+    <p><strong>Tanggal     :</strong> 05-Agustus-2025</p>
+  </section>
+
+  <section data-aos="fade-up">
+    <h2>2. Latar Belakang</h2>
+    <p>
+      Indonesia merupakan negara kepulauan yang memiliki keberagaman suku, agama, budaya, dan bahasa.
+      Di tengah keberagaman tersebut, terdapat ancaman terhadap keutuhan dan keamanan negara,
+      terutama dalam bentuk terorisme dan separatisme. Kedua hal ini menjadi tantangan serius
+      bagi stabilitas nasional dan keamanan masyarakat.
+    </p>
+  </section>
+
+  <section data-aos="fade-up">
+    <h2>3. Permasalahan</h2>
+    <p><strong>1. Terorisme:</strong> Aksi terorisme di Indonesia masih menjadi ancaman nyata,
+      yang dilakukan oleh kelompok-kelompok ekstremis dengan tujuan menciptakan ketakutan,
+      perpecahan, bahkan mengubah ideologi negara.</p>
+    <p><strong>2. Separatisme:</strong> Separatisme adalah gerakan yang ingin memisahkan diri dari NKRI.
+      Di beberapa daerah seperti Papua, muncul kelompok-kelompok yang ingin mendirikan negara sendiri
+      dan menolak kedaulatan Indonesia.</p>
+  </section>
+
+  <section data-aos="fade-up">
+    <h2>4. Dampak Terorisme dan Separatisme</h2>
+    <ul>
+      <li>Ketakutan di masyarakat.</li>
+      <li>Kerusakan infrastruktur dan korban jiwa.</li>
+      <li>Gangguan terhadap ekonomi dan pariwisata.</li>
+      <li>Terganggunya persatuan dan kesatuan bangsa.</li>
+      <li>Munculnya stigma negatif terhadap agama atau kelompok tertentu.</li>
+    </ul>
+  </section>
+
+  <section data-aos="fade-up">
+    <h2>5. Sikap dan Tindakan dalam Mengatasi Masalah</h2>
+    <h4>a. Sikap yang Harus Dimiliki:</h4>
+    <ul>
+      <li><strong>Nasionalisme:</strong> Menjaga cinta tanah air dan setia pada NKRI.</li>
+      <li><strong>Toleransi:</strong> Menghormati perbedaan suku, agama, dan budaya.</li>
+      <li><strong>Kritis:</strong> Tidak mudah terprovokasi informasi hoaks atau propaganda radikal.</li>
+      <li><strong>Aktif:</strong> Berpartisipasi dalam kegiatan yang menjaga keutuhan NKRI.</li>
+    </ul>
+    <h4>b. Tindakan yang Bisa Dilakukan:</h4>
+    <ul>
+      <li>Pendidikan Anti-Radikalisme: Mengedukasi masyarakat tentang bahaya paham ekstrem.</li>
+      <li>Penguatan Ideologi Pancasila: Menanamkan nilai-nilai Pancasila sejak dini.</li>
+      <li>Pelaporan Dini: Melaporkan aktivitas mencurigakan kepada aparat keamanan.</li>
+      <li>Rehabilitasi dan Deradikalisasi: Memberikan pembinaan kepada mantan pelaku teror agar kembali ke masyarakat.</li>
+      <li>Dialog dan Pendekatan Sosial: Pendekatan humanis dan kesejahteraan untuk konflik separatis.</li>
+    </ul>
+  </section>
+
+  <section data-aos="fade-up">
+    <h2>6. Penutup</h2>
+    <p>
+      Ancaman terorisme dan separatisme adalah persoalan serius yang harus ditangani dengan bijak dan menyeluruh.
+      Peran serta seluruh elemen bangsa sangat penting dalam menjaga keutuhan NKRI.
+      Dengan memperkuat rasa persatuan, memperdalam pemahaman Pancasila, serta mengedepankan dialog dan pendidikan,
+      Indonesia dapat tetap berdiri teguh sebagai negara yang aman, damai, dan bersatu.
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 | Portofolio oleh Thoni project™ - Desain Futuristik Glow
+  </footer>
+
+  <!-- AOS Animation Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+
+    function toggleMode() {
+      document.body.classList.toggle("light-mode");
+    }
+  </script>
+
+</body>
+</html>
