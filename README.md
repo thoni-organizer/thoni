@@ -1,0 +1,2 @@
+# thoni
+hanya untuk pelajaran 
